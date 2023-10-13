@@ -22,7 +22,7 @@ const sendEmail: any = async function (email: any, message: any) {
                 <h2 style="color: #0056b3;">Reset Your Password - URL Verification</h2>
                 <p>Dear User,</p>
                 <p>You have requested to reset your password. Please use the following URL code to proceed with the password reset process:</p>
-                <a href="http://127.0.0.1:5173${message}" style="font-weight: bold; font-size: 18px; background-color: #e8e8e8; padding: 10px; text-decoration: none; color: #000;">Reset Password</a>
+                <a href="http://localhost:5173${message}" style="font-weight: bold; font-size: 18px; background-color: #e8e8e8; padding: 10px; text-decoration: none; color: #000;">Reset Password</a>
                 <p>${message}</p>
                 <p style="font-size: 14px;">This URL is valid for the next 5 minutes.</p>
                 <p>If you did not request this password reset, you can safely ignore this email.</p>
