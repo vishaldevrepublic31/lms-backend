@@ -21,7 +21,7 @@ const contactUs = async (req: any, res: Response, next: NextFunction) => {
         });
     } catch (error: any) {
         return next(
-            new AppError(error || "File not uploaded, please try again", 400)
+            new AppError(error || " please try again", 400)
         );
     }
 }
@@ -42,7 +42,7 @@ const userStats = async (req: any, res: Response, next: NextFunction) => {
         });
     } catch (error: any) {
         return next(
-            new AppError(error || "File not uploaded, please try again", 400)
+            new AppError(error || "please try again", 400)
         );
     }
 }
