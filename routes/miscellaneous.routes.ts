@@ -7,7 +7,7 @@ import { authorizeRoles, isLoggedIn } from '../middlewares/auth.middleware';
 
 const router = Router();
 
-// {{URL}}/api/v1/
+
 router.route('/contact').post(contactUs);
 router
     .route('/admin/stats/users')
