@@ -47,7 +47,7 @@ A Learning Management System (LMS) is  web-based platform designed to facilitate
     "razorpay": "^2.9.2"
 ```
 
-###.env
+### .env
 ```
 PORT = 5000
 MONGO_URL = mongodb+srv://vishaldevrepublic:vishaldevrepublic@lms.crhi8yr.mongodb.net/lms
