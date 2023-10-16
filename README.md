@@ -31,7 +31,7 @@ A Learning Management System (LMS) is  web-based platform designed to facilitate
 ### dependencies
 
 ```
- "@types/node": "^20.8.2",
+    "@types/node": "^20.8.2",
     "bcryptjs": "^2.4.3",
     "cloudinary": "^1.41.0",
     "cookie-parser": "^1.4.6",
@@ -45,4 +45,34 @@ A Learning Management System (LMS) is  web-based platform designed to facilitate
     "multer": "^1.4.5-lts.1",
     "nodemailer": "^6.9.5",
     "razorpay": "^2.9.2"
+```
+
+###.env
+```
+PORT = 5000
+MONGO_URL = mongodb+srv://vishaldevrepublic:vishaldevrepublic@lms.crhi8yr.mongodb.net/lms
+NODE_ENV = production
+JWT_SECRET = vishalparmar
+JWT_EXPIRY = 7day   
+
+CLOUDINARY_CLOUD_NAME = dzvhvdwbp
+CLOUDINARY_API_KEY = 116234577541158
+CLOUDINARY_API_SECRET = rg3ylBOGr7DVqNzc6cJBHG7Zuz4
+
+SMTP_HOST = sandbox.smtp.mailtrap.io
+SMTP_PORT = 587
+SMTP_USERNAME = d321a8483977ee
+SMTP_PASSWORD = dhewkbeohofsgiub
+SMTP_FROM_EMAIL = vishaldevrepublic@gmail.com
+
+
+USER_EMAIL = vishaldevrepublic@gmail.com
+USER_PASS = ufamkytbcgjivmnm
+
+FRONTEND_URL = http://127.0.0.1:5173/
+RAZORPAY_KEY_ID = rzp_test_cJzrtQrhxRO8SX
+RAZORPAY_SECRET = DhbYtFybsvrbitEodS8xVEyF
+RAZORPAY_PLAN_ID = plan_MkV824UfVKzNFu
+
+CONTACT_US_EMAIL = vishaldevrepublic@gmail.com
 ```
