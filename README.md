@@ -50,29 +50,30 @@ A Learning Management System (LMS) is  web-based platform designed to facilitate
 ### .env
 ```
 PORT = 5000
-MONGO_URL = mongodb+srv://vishaldevrepublic:vishaldevrepublic@lms.crhi8yr.mongodb.net/lms
+MONGO_URL = <Database connection string>
 NODE_ENV = production
-JWT_SECRET = vishalparmar
-JWT_EXPIRY = 7day   
+JWT_SECRET = <Your secret key>
+JWT_EXPIRY = <1day,2day etc..>   
 
-CLOUDINARY_CLOUD_NAME = dzvhvdwbp
-CLOUDINARY_API_KEY = 116234577541158
-CLOUDINARY_API_SECRET = rg3ylBOGr7DVqNzc6cJBHG7Zuz4
+CLOUDINARY_CLOUD_NAME = <your cloudinary cloud name>
+CLOUDINARY_API_KEY =  <your cloudinary api key>
+CLOUDINARY_API_SECRET = <your cloudinary secret key>
 
-SMTP_HOST = sandbox.smtp.mailtrap.io
-SMTP_PORT = 587
-SMTP_USERNAME = d321a8483977ee
-SMTP_PASSWORD = dhewkbeohofsgiub
-SMTP_FROM_EMAIL = vishaldevrepublic@gmail.com
+SMTP_HOST = <smtp host>
+SMTP_PORT = <smtp port>
+SMTP_USERNAME = <your smtp username>
+SMTP_PASSWORD =<your smtp password>
+SMTP_FROM_EMAIL = <your smtp email>
 
 
-USER_EMAIL = vishaldevrepublic@gmail.com
-USER_PASS = ufamkytbcgjivmnm
+USER_EMAIL = <your email id>
+USER_PASS = <your password>
 
-FRONTEND_URL = http://127.0.0.1:5173/
-RAZORPAY_KEY_ID = rzp_test_cJzrtQrhxRO8SX
-RAZORPAY_SECRET = DhbYtFybsvrbitEodS8xVEyF
-RAZORPAY_PLAN_ID = plan_MkV824UfVKzNFu
+FRONTEND_URL = <frontend url >
 
-CONTACT_US_EMAIL = vishaldevrepublic@gmail.com
+RAZORPAY_KEY_ID = <your razorpy key id>
+RAZORPAY_SECRET = <your razorpy secret key >
+RAZORPAY_PLAN_ID =  <your razorpy plan id>
+
+CONTACT_US_EMAIL =  <your email id>
 ```
