@@ -57,6 +57,10 @@ app.use(cookieParser())
 app.use(express.urlencoded({ extended: true }))
 
 // routes
+app.get('/pig',(res,res)=>{
+    res.send('pong');
+})
+
 app.use('/api/v1/user', userRoute)
 app.use('/api/v1/course', courseRoute)
 app.use('/api/v1/payments', paymentRoute)
